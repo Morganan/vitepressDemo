@@ -56,7 +56,17 @@ export default {
 }
 ```
 
-**Step. 5：** 配置文档`markdown语法下 代码是否显示行数`
+**Step. 5：** 配置网站根目录
+
+```ts
+export default {
+    title: "网站名称"
+    // 格式是: /仓库名称
+    base: "/vitepressDemo",
+}
+```
+
+**Step. 6：** 配置文档`markdown语法下 代码是否显示行数`
 
 ```ts
 export default {
@@ -67,7 +77,7 @@ export default {
 }
 ```
 
-**Step. 6：** 网站主题风格配置
+**Step. 7：** 网站主题风格配置
 
 ```ts
 export default {
@@ -82,7 +92,7 @@ export default {
 }
 ```
 
-**Step. 6：** 网站右上导航配置
+**Step. 8：** 网站右上导航配置
 
 ```ts
 export default {
@@ -99,7 +109,7 @@ export default {
 }
 ```
 
-**Step. 7：** 网站左边侧边栏配置
+**Step. 9：** 网站左边侧边栏配置
 
 ```ts
 export default {
@@ -195,4 +205,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-**Step. 4：** 去`GitHub`中创建上面代码最后一行的`secrets.GITHUB_TOKEN`
+**Step. 5：** 去`GitHub`中创建上面代码最后一行的`secrets.GITHUB_TOKEN`
+
+
+**Step. 6：** 设置`GitHub Pages`的根目录
