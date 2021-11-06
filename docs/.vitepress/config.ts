@@ -4,7 +4,7 @@ export default {
   themeConfig: {
     // 文档所在的文件夹
     docsDir: 'docs',
-    // 头部nav
+    // 头部nav 
     nav: [
       {text: '哔哩哔哩', link: "https://space.bilibili.com/36036472"},
       // ...省略多个
